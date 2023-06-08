@@ -5,15 +5,15 @@ The CODED dataset can also be downloaded from this link: [CODED](https://drive.g
 
 ## Data Description
 ### Data Detials
-|Name     |Resolution |Train_Positive |Train_Unlabeled|Test_Positive|Test_Negative|Total    |#Defect types|
-|---      |---        |---            |---            |---          |---          |---      |---          |
-|0        |1824x1824  |2,100          |2,368          |17           |250          |4,735    |2            |
-|1        |2464x2056  |80             |79             |15           |117          |291      |3            |
-|2        |2464x2056  |500            |489            |10           |462          |1,461    |12           |
-|3        |2464x2056  |40             |41             |10           |82           |173      |7            |
-|4        |2464x2056  |150            |150            |13           |346          |659      |5            |
-|5        |2464x2056  |40             |40             |16           |179          |275      |4            |
-|All      |2065x1911  |2,910          |3,167          |81           |1,436        |7,594    |33           |
+|Name   |Resolution           |Train_Positive |Train_Unlabeled|Test_Positive|Test_Negative|Total    |#Defect types|
+|---    |---                  |---            |---            |---          |---          |---      |---          |
+|0      |1824 $\times$ 1824   |2,100          |2,368          |17           |250          |4,735    |2            |
+|1      |2464 $\times$ 2056   |80             |79             |15           |117          |291      |3            |
+|2      |2464 $\times$ 2056   |500            |489            |10           |462          |1,461    |12           |
+|3      |2464 $\times$ 2056   |40             |41             |10           |82           |173      |7            |
+|4      |2464 $\times$ 2056   |150            |150            |13           |346          |659      |5            |
+|5      |2464 $\times$ 2056   |40             |40             |16           |179          |275      |4            |
+|All    |2065 $\times$ 1911   |2,910          |3,167          |81           |1,436        |7,594    |33           |
 
 ### Data examples
 ![](doc/dataset.jpg)  
