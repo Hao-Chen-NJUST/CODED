@@ -16,7 +16,7 @@ The CODED dataset can also be downloaded from this link: https://drive.google.co
 |All      |2065x1911  |2,910          |3,167          |81           |1,436        |7,594    |33           |
 
 ### Data examples
-
+![](https://github.com/Hao-Chen-NJUST/CODED/raw/master/doc/dataset.pdf)  
 
 ## Requirements
 * Python 3.8
