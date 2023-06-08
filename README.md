@@ -16,19 +16,43 @@ The CODED dataset can also be downloaded from this link: [CODED](https://drive.g
 |All      |2065x1911  |2,910          |3,167          |81           |1,436        |7,594    |33           |
 
 ### Data examples
-![](https://github.com/Hao-Chen-NJUST/CODED/blob/master/doc/dataset.jpg)  
+![](doc/dataset.jpg)  
+
+### Dataset File Structure
+    Data:  
+    └─CODED  
+        ├─0  
+        │  ├─annotations  
+        │  │  └─ng  
+        │  │          xxx.json  
+        │  │          ...  
+        │  │          
+        │  ├─test  
+        │  │  ├─good  
+        │  │  │      xxx.jpg  
+        │  │  │      ...  
+        │  │  │      
+        │  │  └─ng  
+        │  │          xxx.jpg  
+        │  │          ...  
+        │  │          
+        │  └─train  
+        │      ├─good  
+        │      │      xxx.jpg  
+        │      │      ...  
+        │      │      
+        │      └─unlabelled  
+        │              xxx.jpg  
+        │              ...  
+        │              
+        ├─...  
 
 ## Requirements
 * Python 3.8
 * Pytorch 1.10.1
 * torchvision 0.11.2
 * CUDA 11.1
-* matplotlib 3.7.1
-* numpy 1.24.2
-* Pillow 9.5.0
-* scikit_image 0.19.3
-* scikit_learn 1.2.0
-* tqdm 4.65.0
+
 Please refer to [`requirements.txt`](https://github.com/Hao-Chen-NJUST/CODED/blob/master/requirements.txt) and [`requirements_conda.txt`](https://github.com/Hao-Chen-NJUST/CODED/blob/master/requirements_conda.txt) for specific environment requirements.
 
 ## Quick Start
