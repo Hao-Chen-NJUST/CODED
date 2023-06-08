@@ -4,7 +4,9 @@ The CODED dataset is a circular workpiece defect detection dataset for positive 
 The CODED dataset can also be downloaded from this link: [CODED](https://drive.google.com/file/d/1kj90dpOZxY0SiuWcv4qjX8eCHuvxXQIc/view?usp=sharing)
 
 ## Data Description
+
 ### Data Detials
+
 |Name   |Resolution           |Train_Positive |Train_Unlabeled|Test_Positive|Test_Negative|Total    |#Defect types|
 |---    |---                  |---            |---            |---          |---          |---      |---          |
 |0      |1824 $\times$ 1824   |2,100          |2,368          |17           |250          |4,735    |2            |
@@ -16,9 +18,11 @@ The CODED dataset can also be downloaded from this link: [CODED](https://drive.g
 |All    |2065 $\times$ 1911   |2,910          |3,167          |81           |1,436        |7,594    |33           |
 
 ### Data examples
+
 ![](doc/dataset.jpg)  
 
 ### Dataset File Structure
+
     Data:  
     └─CODED  
         ├─0  
