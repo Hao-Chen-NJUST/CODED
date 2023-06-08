@@ -1,7 +1,7 @@
 # CODED: A Dataset for Positive Unlabeled Learning in Circular Workpiece Defect Detection
 
 The CODED dataset is a circular workpiece defect detection dataset for positive unlabeled learning. It comprises 7,594 high-resolution circular images collected from *six* different production lines. The data details and some examples of CODED are shown in the following table and figure.
-The CODED dataset can also be downloaded from this link: https://drive.google.com/file/d/1kj90dpOZxY0SiuWcv4qjX8eCHuvxXQIc/view?usp=sharing
+The CODED dataset can also be downloaded from this link: [CODED](https://drive.google.com/file/d/1kj90dpOZxY0SiuWcv4qjX8eCHuvxXQIc/view?usp=sharing)
 
 ## Data Description
 ### Data Detials
@@ -29,4 +29,19 @@ The CODED dataset can also be downloaded from this link: https://drive.google.co
 * scikit_image 0.19.3
 * scikit_learn 1.2.0
 * tqdm 4.65.0
-Please refer to `requiremets.txt` and `requiremets_conda.txt` for specific environment requirements.
+Please refer to [`requirements.txt`](https://github.com/Hao-Chen-NJUST/CODED/blob/master/requirements.txt) and [`requirements_conda.txt`](https://github.com/Hao-Chen-NJUST/CODED/blob/master/requirements_conda.txt) for specific environment requirements.
+
+## Quick Start
+The complete CODED dataset and related code are included in this project, without additional download.
+
+### Train
+
+We train our model in one Nvidia RTX 3060 12GB card, and the training command is:
+
+    python run.py
+    
+### Test
+
+Our test command is:
+
+    python run_test.py
