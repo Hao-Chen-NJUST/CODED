@@ -18,7 +18,7 @@ The CODED dataset can also be downloaded from this link: [CODED](https://drive.g
 |All    |2065 $\times$ 1911   |2,910          |3,167          |81           |1,436        |7,594    |33           |
 
 ### Data examples
-
+Our CODED dataset contains image data of circular artifacts from six production lines, i.e., 0, 1, 2, 3, 4, and 5. Positive, unmarked, and negative samples are indicated by green, gray, and red edges, respectively.
 ![](doc/dataset.jpg)  
 
 ### Dataset File Structure
