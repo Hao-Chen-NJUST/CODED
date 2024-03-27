@@ -223,7 +223,7 @@ def train_with_un(args, model, optimizer, train_dataloader, train_unlabelled_dat
         label_pos = torch.as_tensor(data[0][1])
         inputs = inputs.to(device)
         label_pos = label_pos.to(device)
-        logits, proto_memory, hs, resnet_fea, p_label_un = model(inputs, proto_memory, args.unlabelled, args.alpha)
+        logits, proto_memory, hs, resnet_fea, p_label_un = model(inputs, proto_memory, args.alpha)
 
         if logits.size().__len__() == 2:
             assert logits.size(0) == args.batch_size * 2
