@@ -65,7 +65,7 @@ class PULT(nn.Module):
             nn.init.xavier_uniform_(proj[0].weight, gain=1)
             nn.init.constant_(proj[0].bias, 0)
 
-    def forward(self, samples: NestedTensor, proto_memory=None, unlabelled=True, alpha=0.9):
+    def forward(self, samples: NestedTensor, proto_memory=None, alpha=0.9):
         if not isinstance(samples, NestedTensor):
             samples = nested_tensor_from_tensor_list(samples)
         features, pos = self.backbone(samples)
