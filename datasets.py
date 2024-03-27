@@ -90,11 +90,10 @@ def Get_dataloader(args):
     test_dataloader = DataLoader(ImageDataset(args, "%s/%s" % (args.data_root, args.dataset_name), mode='test'),
                                  batch_size=args.batch_size * 2, shuffle=False, num_workers=args.num_workers,
                                  drop_last=False, collate_fn=collate_fn)
-    train_unlabelled_dataloader = None
-    if args.unlabelled:
-        train_unlabelled_dataloader = DataLoader(ImageDataset(args, "%s/%s" % (args.data_root, args.dataset_name),
-                                                              mode='train', unlabelled=True),
-                                                 batch_size=args.batch_size, shuffle=True, num_workers=args.num_workers,
-                                                 drop_last=True, collate_fn=collate_fn)
+
+    train_unlabelled_dataloader = DataLoader(ImageDataset(args, "%s/%s" % (args.data_root, args.dataset_name),
+                                                          mode='train', unlabelled=True),
+                                             batch_size=args.batch_size, shuffle=True, num_workers=args.num_workers,
+                                             drop_last=True, collate_fn=collate_fn)
 
     return train_dataloader, train_unlabelled_dataloader, test_dataloader
