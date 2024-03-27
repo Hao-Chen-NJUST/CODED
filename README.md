@@ -57,7 +57,7 @@ Our CODED dataset contains image data of circular workpieces from six production
 * torchvision 0.11.2
 * CUDA 11.1
 
-Please refer to [`requirements.txt`](https://github.com/Hao-Chen-NJUST/CODED/blob/master/requirements.txt) and [`requirements_conda.txt`](https://github.com/Hao-Chen-NJUST/CODED/blob/master/requirements_conda.txt) for specific environment requirements.
+Please refer to [`requirements.txt`](https://github.com/Hao-Chen-NJUST/CODED/blob/master/requirements.txt) for specific environment requirements.
 
 ## Quick Start
 The complete CODED dataset and related code are included in this project, without additional download.
