@@ -55,12 +55,12 @@ def main():
     print('number of params:', n_parameters)
 
     train_dataloader, train_unlabelled_dataloader, test_dataloader = Get_dataloader(args)
-    if args.unlabelled:
-        dataloader_len = max(len(train_dataloader), len(train_unlabelled_dataloader))
-        if train_dataloader.__len__() > train_unlabelled_dataloader.__len__():
-            train_unlabelled_dataloader = cycle(train_unlabelled_dataloader)
-        elif train_dataloader.__len__() < train_unlabelled_dataloader.__len__():
-            train_dataloader = cycle(train_dataloader)
+    
+    dataloader_len = max(len(train_dataloader), len(train_unlabelled_dataloader))
+    if train_dataloader.__len__() > train_unlabelled_dataloader.__len__():
+        train_unlabelled_dataloader = cycle(train_unlabelled_dataloader)
+    elif train_dataloader.__len__() < train_unlabelled_dataloader.__len__():
+        train_dataloader = cycle(train_dataloader)
 
     def match_name_keywords(n, name_keywords):
         out = False
