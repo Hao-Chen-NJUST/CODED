@@ -45,7 +45,7 @@ Our CODED dataset contains image data of circular workpieces from six production
         │      │      xxx.jpg  
         │      │      ...  
         │      │      
-        │      └─unlabeled  
+        │      └─unlabelled  
         │              xxx.jpg  
         │              ...  
         │              
