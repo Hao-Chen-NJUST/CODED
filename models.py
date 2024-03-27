@@ -163,8 +163,8 @@ def build_model(args):
         num_classes=2,
         num_feature_levels=args.num_feature_levels,
         featdim=args.featdim,
-        hyp_c=args.hyp_c,
-        clip_r=args.clip_r,
+        hyp_c=args.hyp_c if args.hyp_c > 0 else 0,
+        clip_r=args.clip_r if args.clip_r > 0 else None,
         k=args.k,
         k_learnable=args.k_learnable,
     )
