@@ -25,7 +25,7 @@ class PULT(nn.Module):
         self.p2e = hypnn.FromPoincare(c=self.hyp_c, ball_dim=hidden_dim)
         self.hyp_mlr = hypnn.HyperbolicMLR(ball_dim=hidden_dim, n_classes=num_classes, c=self.hyp_c)
         if k == 0:
-            self.k = k
+            self.k = None
         else:
             self.k = torch.nn.Parameter(torch.tensor(k), requires_grad=k_learnable)
             self.k_minmax = {
