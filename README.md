@@ -1,4 +1,4 @@
-# CODED: A Dataset for Positive Unlabeled Learning in Circular Workpiece Defect Detection
+# Boosting Circular Workpiece Defect Detection with Positive Unlabeled Learning and Hyperbolic Geometry: Algorithms and Benchmarking
 
 The CODED dataset is a circular workpiece defect detection dataset for positive unlabeled learning. It comprises 7,594 high-resolution circular images collected from *six* different production lines. The data details and some examples of CODED are shown in the following table and figure.
 The CODED dataset can also be downloaded from this link: [CODED](https://drive.google.com/file/d/1kj90dpOZxY0SiuWcv4qjX8eCHuvxXQIc/view?usp=sharing)
@@ -18,7 +18,7 @@ The CODED dataset can also be downloaded from this link: [CODED](https://drive.g
 |All    |2065 $\times$ 1911   |2,910          |3,167          |81           |1,436        |7,594    |33           |
 
 ### Data examples
-Our CODED dataset contains image data of circular workpieces from six production lines, i.e., 0, 1, 2, 3, 4, and 5. Positive, unmarked, and negative samples are indicated by green, gray, and red edges, respectively.
+Our CODED dataset contains image data of circular workpieces from six production lines, i.e., 0, 1, 2, 3, 4, and 5. Positive, unlabeled, and negative samples are indicated by green, gray, and red edges, respectively.
 ![](doc/dataset.jpg)  
 
 ### Dataset File Structure
@@ -45,7 +45,7 @@ Our CODED dataset contains image data of circular workpieces from six production
         │      │      xxx.jpg  
         │      │      ...  
         │      │      
-        │      └─unlabelled  
+        │      └─unlabeled  
         │              xxx.jpg  
         │              ...  
         │              
