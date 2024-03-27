@@ -100,10 +100,6 @@ def main():
     output_dir = '%s-%s/%s' % (args.exp_name, args.dataset_name, args.output_dir)
     best_auroc = 0.0
     proto_memory = torch.zeros([1, args.hidden_dim], device=device, requires_grad=False)
-    if args.hyp_c < 0:
-        args.hyp_c = 0
-    if args.clip_r <= 0:
-        args.clip_r = None
 
     if args.pretrain:
         print('Initialized from the pre-training model')
