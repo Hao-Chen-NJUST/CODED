@@ -21,44 +21,21 @@ The CODED dataset can also be downloaded from this link: [CODED](https://drive.g
 Our CODED dataset contains image data of circular workpieces from six production lines, i.e., 0, 1, 2, 3, 4, and 5. Positive, unlabeled, and negative samples are indicated by green, gray, and red edges, respectively.
 ![](doc/dataset.jpg)  
 
-Further, the followings are examples of the respective defects in the respective production lines.
+Further, the followings are examples of the respective defects in the respective production lines. Images with different border colors come from different production lines. 
 
-***Production line 0*** has 2 types of defects. 
-<div align=center>
-<img src="doc/0-1.jpg" width = "300"/><img src="doc/0-2.jpg" width = "300"/>
-</div>
+![](doc/defects.jpg) 
 
-***Production line 1*** has 3 types of defects.
-<div align=center>
-<img src="doc/1-2.jpg" width = "300"/><img src="doc/1-3.jpg" width = "300"/><img src="doc/1-4.jpg" width = "300"/>
-</div>
+- The images with the *purple* border come from ***production line 0***, which has 2 types of defects (id 1: light blank; id 2: adhesion injury). 
 
-***Production line 2*** has 12 types of defects.
-<div align=center>
-<img src="doc/2-1.jpg" width = "300"/><img src="doc/2-2.jpg" width = "300"/><img src="doc/2-3.jpg" width = "300"/>
-<img src="doc/2-4.jpg" width = "300"/><img src="doc/2-5.jpg" width = "300"/><img src="doc/2-7.jpg" width = "300"/>
-<img src="doc/2-8.jpg" width = "300"/><img src="doc/2-9.jpg" width = "300"/><img src="doc/2-10.jpg" width = "300"/>
-<img src="doc/2-12.jpg" width = "300"/><img src="doc/2-13.jpg" width = "300"/><img src="doc/2-14.jpg" width = "300"/>
-</div>
+- The images with the *dark blue* border come from ***production line 1***, which has 3 types of defects (id 2: light blank; id 3: impurities; id 4: adhesion injury). 
 
-***Production line 3*** has 7 types of defects.
-<div align=center>
-<img src="doc/3-1.jpg" width = "300"/><img src="doc/3-2.jpg" width = "300"/><img src="doc/3-3.jpg" width = "300"/>
-<img src="doc/3-4.jpg" width = "300"/><img src="doc/3-4.jpg" width = "300"/><img src="doc/3-6.jpg" width = "300"/>
-<img src="doc/3-7.jpg" width = "300"/>
-</div>
+- The images with the *orange* border come from ***production line 2***, which has 12 types of defects (id 1: sticker; id 2: large inner sticker; id 3: large outer sticker; id 4: outer sticker; id 5: burr; id 7: flow mark; id 8: light blank; id 9: scratch; id 10: impurities; id 12: inner flow mark; id 13: indentation; id 14: adhesive edge;). 
 
-***Production line 4*** has 5 types of defects.
-<div align=center>
-<img src="doc/4-1.jpg" width = "300"/><img src="doc/4-2.jpg" width = "300"/><img src="doc/4-3.jpg" width = "300"/>
-<img src="doc/4-4.jpg" width = "300"/><img src="doc/4-5.jpg" width = "300"/>
-</div>
+- The images with the *yellow* border come from ***production line 3***, which has 7 types of defects (id 1: burr; id 2: impurities; id 3: adhesion injury; id 4: flow mark; id 5: bumpy; id 6: bark; id 7: incomplete display). 
 
-***Production line 5*** has 4 types of defects.
-<div align=center>
-<img src="doc/5-1.jpg" width = "300"/><img src="doc/5-2.jpg" width = "300"/><img src="doc/5-3.jpg" width = "300"/>
-<img src="doc/5-5.jpg" width = "300"/>
-</div>
+- The images with the *light blue* border come from ***production line 4***, which has 5 types of defects (id 1: sticker; id 2: flow mark; id 3: pit; id 4: impurities; id 5: burr). 
+
+- The images with the *green* border come from ***production line 5***, which has 4 types of defects (id 1: outer burr; id 2: inner burr; id 3: pinhole; id 5: short shot).
 
 ### Dataset File Structure
 
