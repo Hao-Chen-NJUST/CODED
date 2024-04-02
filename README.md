@@ -24,9 +24,9 @@ Our CODED dataset contains image data of circular workpieces from six production
 Further, the followings are examples of the respective defects in the respective production lines.
 
 **Production line 0** has 2 types of defects. 
-<center class="half">
+<figure class="half">
 <img src="doc/0-1.jpg" width = "200"/> <img src="doc/0-2.jpg" width = "200"/>
-</center>
+</figure>
 
 **Production line 1** has 3 types of defects.
 ![](doc/1-defects.png) 
