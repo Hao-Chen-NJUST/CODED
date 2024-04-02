@@ -21,7 +21,7 @@ The CODED dataset can also be downloaded from this link: [CODED](https://drive.g
 Our CODED dataset contains image data of circular workpieces from six production lines, i.e., 0, 1, 2, 3, 4, and 5. Positive, unlabeled, and negative samples are indicated by green, gray, and red edges, respectively.
 ![](doc/dataset.jpg)  
 
-Further, the followings are examples of the respective defects in the respective production lines. Images with different border colors come from different production lines. 
+Further, the followings are examples of the respective defects in the respective production lines. Images with different border colors come from different production lines, and the number of the production line is marked in the upper left corner of the images. 
 
 ![](doc/defects.jpg) 
 
