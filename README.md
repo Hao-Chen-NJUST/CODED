@@ -25,7 +25,8 @@ Further, the followings are examples of the respective defects in the respective
 
 **Production line 0** has 2 types of defects. 
 <figure class="half">
-<img src="doc/0-1.jpg" width = "200"/> <img src="doc/0-2.jpg" width = "200"/>
+    <img src="doc/0-1.jpg" width = "400"/>
+    <img src="doc/0-2.jpg" width = "400"/>
 </figure>
 
 **Production line 1** has 3 types of defects.
