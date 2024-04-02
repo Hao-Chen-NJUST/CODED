@@ -25,38 +25,39 @@ Further, the followings are examples of the respective defects in the respective
 
 ***Production line 0*** has 2 types of defects. 
 <div align=center>
-<img src="doc/0-1.jpg" width = "500"/><img src="doc/0-2.jpg" width = "500"/>
+<img src="doc/0-1.jpg" width = "300"/><img src="doc/0-2.jpg" width = "300"/>
 </div>
 
 ***Production line 1*** has 3 types of defects.
 <div align=center>
-<img src="doc/1-2.jpg" width = "333"/><img src="doc/1-3.jpg" width = "333"/><img src="doc/1-4.jpg" width = "333"/>
+<img src="doc/1-2.jpg" width = "300"/><img src="doc/1-3.jpg" width = "300"/><img src="doc/1-4.jpg" width = "300"/>
 </div>
 
 ***Production line 2*** has 12 types of defects.
 <div align=center>
-<img src="doc/2-1.jpg" width = "333"/><img src="doc/2-2.jpg" width = "333"/><img src="doc/2-3.jpg" width = "333"/>
-<img src="doc/2-4.jpg" width = "333"/><img src="doc/2-5.jpg" width = "333"/><img src="doc/2-7.jpg" width = "333"/>
-<img src="doc/2-8.jpg" width = "333"/><img src="doc/2-9.jpg" width = "333"/><img src="doc/2-10.jpg" width = "333"/>
-<img src="doc/2-12.jpg" width = "333"/><img src="doc/2-13.jpg" width = "333"/><img src="doc/2-14.jpg" width = "333"/>
+<img src="doc/2-1.jpg" width = "300"/><img src="doc/2-2.jpg" width = "300"/><img src="doc/2-3.jpg" width = "300"/>
+<img src="doc/2-4.jpg" width = "300"/><img src="doc/2-5.jpg" width = "300"/><img src="doc/2-7.jpg" width = "300"/>
+<img src="doc/2-8.jpg" width = "300"/><img src="doc/2-9.jpg" width = "300"/><img src="doc/2-10.jpg" width = "300"/>
+<img src="doc/2-12.jpg" width = "300"/><img src="doc/2-13.jpg" width = "300"/><img src="doc/2-14.jpg" width = "300"/>
 </div>
 
 ***Production line 3*** has 7 types of defects.
 <div align=center>
-<img src="doc/3-1.jpg" width = "333"/><img src="doc/3-2.jpg" width = "333"/><img src="doc/3-3.jpg" width = "333"/>
-<img src="doc/3-4.jpg" width = "250"/><img src="doc/3-4.jpg" width = "250"/><img src="doc/3-6.jpg" width = "250"/><img src="doc/3-7.jpg" width = "250"/>
+<img src="doc/3-1.jpg" width = "300"/><img src="doc/3-2.jpg" width = "300"/><img src="doc/3-3.jpg" width = "300"/>
+<img src="doc/3-4.jpg" width = "300"/><img src="doc/3-4.jpg" width = "300"/><img src="doc/3-6.jpg" width = "300"/>
+<img src="doc/3-7.jpg" width = "300"/>
 </div>
 
 ***Production line 4*** has 5 types of defects.
 <div align=center>
-<img src="doc/4-1.jpg" width = "500"/><img src="doc/4-2.jpg" width = "500"/>
-<img src="doc/4-3.jpg" width = "333"/><img src="doc/4-4.jpg" width = "333"/><img src="doc/4-5.jpg" width = "333"/>
+<img src="doc/4-1.jpg" width = "300"/><img src="doc/4-2.jpg" width = "300"/><img src="doc/4-3.jpg" width = "300"/>
+<img src="doc/4-4.jpg" width = "300"/><img src="doc/4-5.jpg" width = "300"/>
 </div>
 
 ***Production line 5*** has 4 types of defects.
 <div align=center>
-<img src="doc/5-1.jpg" width = "500"/><img src="doc/5-2.jpg" width = "500"/>
-<img src="doc/5-3.jpg" width = "500"/><img src="doc/5-5.jpg" width = "500"/>
+<img src="doc/5-1.jpg" width = "300"/><img src="doc/5-2.jpg" width = "300"/><img src="doc/5-3.jpg" width = "300"/>
+<img src="doc/5-5.jpg" width = "300"/>
 </div>
 
 ### Dataset File Structure
