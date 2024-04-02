@@ -39,7 +39,7 @@ Further, the followings are examples of the respective defects in the respective
 ![](doc/4-defects.png) 
 
 **Production line 5** has 4 types of defects.
-![](doc/1-defects.png) 
+![](doc/5-defects.png) 
 
 ### Dataset File Structure
 
