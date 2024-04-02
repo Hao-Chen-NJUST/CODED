@@ -25,7 +25,7 @@ Further, the followings are examples of the respective defects in the respective
 
 **Production line 0** has 2 types of defects. 
 ![](doc/0-defects.png) 
-<img src="./doc/0-1.png" width = "300" height = "300" alt="" align=center />
+<img src="doc/0-1.jpg" width = "400" height = "400" alt="" align=center />
 
 **Production line 1** has 3 types of defects.
 ![](doc/1-defects.png) 
